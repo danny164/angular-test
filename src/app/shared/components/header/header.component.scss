@@ -44,7 +44,7 @@
 
 .top-nav {
   // background: yellow;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 
   .row {
     justify-content: space-between;
@@ -66,6 +66,11 @@
 
 .top-nav__menu > li {
   margin-right: 2rem;
+  font-size: 1.25rem;
+
+  &:last-child {
+    margin-right: 0;
+  }
 }
 
 .top-nav__cart {

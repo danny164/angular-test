@@ -1,1 +1,14 @@
-<p>banner works!</p>
+<section class="banner">
+  <div class="container-fluid" [ngStyle]="{ padding: 0 }">
+    <h1 class="banner__title"></h1>
+    <ngx-slick-carousel
+      class="carousel"
+      #slickModal="slick-carousel"
+      [config]="slideConfig"
+    >
+      <div ngxSlickItem *ngFor="let slide of slides" class="slide">
+        <img class="banner__image" src="{{ slide.img }}" alt="" />
+      </div>
+    </ngx-slick-carousel>
+  </div>
+</section>

@@ -12,9 +12,26 @@ import { ProductsComponent } from './pages/home/components/products/products.com
 import { BranchLogosComponent } from './pages/home/components/branch-logos/branch-logos.component';
 import { NewsletterComponent } from './pages/home/components/newsletter/newsletter.component';
 
+import { SlickCarouselModule } from 'ngx-slick-carousel';
+
 @NgModule({
-  declarations: [AppComponent, HomeComponent, HeaderComponent, FooterComponent, BannerComponent, TopCategoriesComponent, ProductsComponent, BranchLogosComponent, NewsletterComponent],
-  imports: [BrowserModule, BrowserAnimationsModule, AlertModule.forRoot()],
+  declarations: [
+    AppComponent,
+    HomeComponent,
+    HeaderComponent,
+    FooterComponent,
+    BannerComponent,
+    TopCategoriesComponent,
+    ProductsComponent,
+    BranchLogosComponent,
+    NewsletterComponent,
+  ],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    AlertModule.forRoot(),
+    SlickCarouselModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
