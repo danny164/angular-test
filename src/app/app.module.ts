@@ -13,6 +13,9 @@ import { BranchLogosComponent } from './pages/home/components/branch-logos/branc
 import { NewsletterComponent } from './pages/home/components/newsletter/newsletter.component';
 
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { NavigationComponent } from './shared/components/footer/navigation/navigation.component';
+import { SocialContactComponent } from './shared/components/footer/social-contact/social-contact.component';
+import { CopyrightComponent } from './shared/components/footer/copyright/copyright.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +28,9 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     ProductsComponent,
     BranchLogosComponent,
     NewsletterComponent,
+    NavigationComponent,
+    SocialContactComponent,
+    CopyrightComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,51 @@
+.newsletter {
+  background-color: #999;
+  padding: 50px 0;
+}
+
+.newsletter__title > h2 {
+  color: #fff;
+}
+
+.newsletter__subscribe {
+  display: flex;
+
+  & > p {
+    color: #fff;
+  }
+}
+
+.newsletter__subscribe--form {
+  position: relative;
+
+  flex-basis: 70%;
+
+  padding-top: 12px;
+  padding-right: 160px;
+  padding-left: 20px;
+  border-radius: 50px;
+  height: 47px;
+
+  background-color: #fff;
+
+  input {
+    width: 100%;
+    border: none;
+  }
+
+  button {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+
+    padding: 10px 30px;
+    border-radius: 50px;
+
+    background: none;
+    border: none;
+    background-color: #80bb01;
+    color: #fff;
+
+    text-transform: uppercase;
+  }
+}

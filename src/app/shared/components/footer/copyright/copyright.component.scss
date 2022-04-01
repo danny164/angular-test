@@ -1,0 +1,49 @@
+.copyright {
+  display: flex;
+  align-items: flex-end;
+
+  padding: 35px 0;
+  color: #999;
+
+  .row {
+    @media (min-width: 992px) {
+      align-items: center;
+    }
+  }
+}
+
+.copyright__line {
+  @media (max-width: 768px) {
+    margin-bottom: 15px;
+  }
+}
+
+.copyright__line p {
+  margin-bottom: 4px;
+}
+
+.copyright__payment-accepted {
+  text-align: center;
+
+  @media (min-width: 768px) {
+    text-align: right !important;
+  }
+
+  &--text {
+    @media (max-width: 992px) {
+      display: block;
+      margin-bottom: 4px;
+    }
+  }
+}
+
+.copyright__payment-accepted--text {
+  margin-right: 5px;
+}
+.copyright__payment-accepted--icon {
+  margin-right: 4px;
+}
+
+.copyright__payment-accepted--icon {
+  display: inline-block;
+}
